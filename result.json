@@ -1,0 +1,3038 @@
+{
+    "name": "Sheet1",
+    "rows": [
+        {
+            "cells": [
+                {
+                    "id": "B1",
+                    "value": "Tailspin Toys",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 1,
+                    "vmerge": 1,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "thick",
+                            "rightcolor": "FF86B73D",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 28,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "C1",
+                    "value": "",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "thick",
+                            "rightcolor": "FF86B73D",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 28,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "D1",
+                    "value": "123 Main Street",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "E1",
+                    "value": "電話:",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "F1",
+                    "value": "123-555-0123",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "bottom",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "G1",
+                    "value": "CustomerService@tailspintoys.com",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 1,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "thick",
+                            "rightcolor": "FF86B73D",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "bottom",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "H1",
+                    "value": "",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "thick",
+                            "rightcolor": "FF86B73D",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "bottom",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "J1",
+                    "value": "顧客",
+                    "numfmt": "[\u003c=99999999]####\\-####;\\(00\") \"####\\-####",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FFFFFFFF",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 60
+        },
+        {
+            "cells": [
+                {
+                    "id": "B2",
+                    "value": "",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "thick",
+                            "rightcolor": "FF86B73D",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 28,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "C2",
+                    "value": "",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "thick",
+                            "rightcolor": "FF86B73D",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 28,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "D2",
+                    "value": "Ocean View, MO 12345",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "E2",
+                    "value": "FAX:",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "F2",
+                    "value": "123-555-0124",
+                    "numfmt": "[\u003c=99999999]####\\-####;\\(00\") \"####\\-####",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "G2",
+                    "value": "www.tailspintoys.com",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 1,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "thick",
+                            "rightcolor": "FF86B73D",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "top",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "H2",
+                    "value": "",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "thick",
+                            "rightcolor": "FF86B73D",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "top",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 54.95
+        },
+        {
+            "cells": [
+                {
+                    "id": "B3",
+                    "value": "請求先:",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "C3",
+                    "value": "Trey Research",
+                    "numfmt": "0;0;;@",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "thin",
+                            "leftcolor": "",
+                            "right": "double",
+                            "rightcolor": "",
+                            "top": "thin",
+                            "topcolor": "",
+                            "bottom": "double",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "solid",
+                            "bgcolor": "FFFFFF00",
+                            "fgcolor": "FFFFFF00"
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "D3",
+                    "value": "電話:",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "E3",
+                    "value": "432-555-0178",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 1,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "top",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "G3",
+                    "value": "請求書番号:",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "H3",
+                    "value": "34567",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [
+                {
+                    "id": "B4",
+                    "value": "住所:",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 2,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "C4",
+                    "value": "345 Cherry Street",
+                    "numfmt": "0;0;;@",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "D4",
+                    "value": "FAX:",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "E4",
+                    "value": "432-555-0187",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 1,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "top",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "G4",
+                    "value": "請求日:",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "H4",
+                    "value": "43587",
+                    "numfmt": "YYYY\\年M\\月D\\日;@",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [
+                {
+                    "id": "C5",
+                    "value": "Suite 123",
+                    "numfmt": "0;0;;@",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "D5",
+                    "value": "電子メール:",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "E5",
+                    "value": "mike@treyresearch.net",
+                    "numfmt": "0;0;;@",
+                    "hidden": false,
+                    "hmerge": 1,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "G5",
+                    "value": "連絡先:",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "H5",
+                    "value": "Mike Gragg",
+                    "numfmt": "0;0;;@",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [
+                {
+                    "id": "C6",
+                    "value": "Albany, SD 12345",
+                    "numfmt": "0;0;;@",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [
+                {
+                    "id": "B7",
+                    "value": "日付",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "C7",
+                    "value": "品目番号",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "D7",
+                    "value": "説明",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "E7",
+                    "value": "数量",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "F7",
+                    "value": "単価",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "G7",
+                    "value": "割引率",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "H7",
+                    "value": "合計",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [
+                {
+                    "id": "B8",
+                    "value": "43587",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "C8",
+                    "value": "789807",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "D8",
+                    "value": "Wooden Blocks",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "E8",
+                    "value": "4",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                },
+                {
+                    "id": "F8",
+                    "value": "10",
+                    "numfmt": "\\¥#,##0.00;\"¥-\"#,##0.00",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "right",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": false
+                        }
+                    }
+                },
+                {
+                    "id": "G8",
+                    "value": "2",
+                    "numfmt": "\\¥#,##0.00;\"¥-\"#,##0.00",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "right",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": false
+                        }
+                    }
+                },
+                {
+                    "id": "H8",
+                    "value": "38",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [
+                {
+                    "id": "G13",
+                    "value": "請求書小計",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF000000",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "right",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": false
+                        }
+                    }
+                },
+                {
+                    "id": "H13",
+                    "value": "38",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "thin",
+                            "bottomcolor": "FFB4B4B4"
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF000000",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [
+                {
+                    "id": "G14",
+                    "value": "税率",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF000000",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "right",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": false
+                        }
+                    }
+                },
+                {
+                    "id": "H14",
+                    "value": "0.089",
+                    "numfmt": "0%!"(MISSING),
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "thin",
+                            "bottomcolor": "FFB4B4B4"
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF000000",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "right",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": false
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [
+                {
+                    "id": "G15",
+                    "value": "消費税",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF000000",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "right",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": false
+                        }
+                    }
+                },
+                {
+                    "id": "H15",
+                    "value": "3.382",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "thin",
+                            "bottomcolor": "FFB4B4B4"
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF000000",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [
+                {
+                    "id": "G16",
+                    "value": "配送費",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF000000",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "right",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": false
+                        }
+                    }
+                },
+                {
+                    "id": "H16",
+                    "value": "5",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "thin",
+                            "bottomcolor": "FFB4B4B4"
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF000000",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [
+                {
+                    "id": "B17",
+                    "value": "すべての小切手の振り出し先を TAILSPIN TOYS に指定します。",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 4,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "general",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "bottom",
+                            "wraptext": false
+                        }
+                    }
+                },
+                {
+                    "id": "G17",
+                    "value": "前金受領済み",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF000000",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "right",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": false
+                        }
+                    }
+                },
+                {
+                    "id": "H17",
+                    "value": "0",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "thin",
+                            "bottomcolor": "FFB4B4B4"
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF000000",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 30
+        },
+        {
+            "cells": [
+                {
+                    "id": "B18",
+                    "value": "10 日以内に全額をお支払いください。期限経過勘定には、1 か月あたり 2%!の(MISSING)利子が課せられます。",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 4,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF735223",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "general",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "bottom",
+                            "wraptext": false
+                        }
+                    }
+                },
+                {
+                    "id": "G18",
+                    "value": "合計",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "",
+                            "bottomcolor": ""
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF000000",
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "right",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": false
+                        }
+                    }
+                },
+                {
+                    "id": "H18",
+                    "value": "46.382",
+                    "numfmt": "General",
+                    "hidden": false,
+                    "hmerge": 0,
+                    "vmerge": 0,
+                    "style": {
+                        "border": {
+                            "left": "",
+                            "leftcolor": "",
+                            "right": "",
+                            "rightcolor": "",
+                            "top": "",
+                            "topcolor": "",
+                            "bottom": "thin",
+                            "bottomcolor": "FFB4B4B4"
+                        },
+                        "fill": {
+                            "patterntype": "none",
+                            "bgcolor": "",
+                            "fgcolor": ""
+                        },
+                        "font": {
+                            "size": 11,
+                            "name": "Meiryo UI",
+                            "family": 3,
+                            "charset": 128,
+                            "color": "FF000000",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                        },
+                        "applyborder": true,
+                        "applyfill": false,
+                        "applyfont": true,
+                        "applyalignment": true,
+                        "alignment": {
+                            "horizontal": "left",
+                            "indent": 0,
+                            "shrinktofit": false,
+                            "textrotation": 0,
+                            "vertical": "center",
+                            "wraptext": true
+                        }
+                    }
+                }
+            ],
+            "hidden": false,
+            "height": 30
+        }
+    ],
+    "cols": [
+        {
+            "min": 1,
+            "max": 1,
+            "hidden": false,
+            "width": 2.7201646090535,
+            "collapsed": false
+        },
+        {
+            "min": 2,
+            "max": 2,
+            "hidden": false,
+            "width": 0,
+            "collapsed": false
+        },
+        {
+            "min": 3,
+            "max": 3,
+            "hidden": false,
+            "width": 0,
+            "collapsed": false
+        },
+        {
+            "min": 4,
+            "max": 4,
+            "hidden": false,
+            "width": 0,
+            "collapsed": false
+        },
+        {
+            "min": 5,
+            "max": 5,
+            "hidden": false,
+            "width": 0,
+            "collapsed": false
+        },
+        {
+            "min": 6,
+            "max": 6,
+            "hidden": false,
+            "width": 0,
+            "collapsed": false
+        },
+        {
+            "min": 7,
+            "max": 7,
+            "hidden": false,
+            "width": 0,
+            "collapsed": false
+        },
+        {
+            "min": 8,
+            "max": 8,
+            "hidden": false,
+            "width": 0,
+            "collapsed": false
+        }
+    ],
+    "maxrow": 18,
+    "maxcol": 8,
+    "hidden": false,
+    "selected": false
+}
