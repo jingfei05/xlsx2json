@@ -197,8 +197,6 @@ func main() {
 		fmt.Println("*** File does not exist:", input_filename)
 		return
 	}
-	cell_count := 0
-	row_count := 0
 	//excelFileName := "Book1.xlsx"
 	excelFileName := input_filename
 	xlFile, err := xlsx.OpenFile(excelFileName)
@@ -226,6 +224,10 @@ func main() {
 	_sheet.Cols = make([]*Col, 0)
 	_y := 0
 
+	_org_cell_count := 0
+	_cell_count := 0
+	_row_count := 0
+        _drop_cell_count := 0
 	for _, row := range sheet.Rows {
 		_row := Row{}
 		_row.Hidden = row.Hidden
@@ -312,19 +314,23 @@ func main() {
 			if *minmam {
 				if celljudg {
 					_row.Cells = append(_row.Cells, &_cell)
-				}
+			                _cell_count++
+				} else {
+                                   _drop_cell_count++
+                                }
 
 			} else {
 
 				_row.Cells = append(_row.Cells, &_cell)
+			        _cell_count++
 
 			}
 
 			_x++
-			cell_count++
+			_org_cell_count++
 		}
 		_y++
-		row_count++
+		_row_count++
 	}
 	for _, col := range sheet.Cols {
 		_col := Col{}
@@ -371,8 +377,10 @@ func main() {
 		}
 	}
 
-	fmt.Println("cell count:", cell_count)
-	fmt.Println("row count:", row_count)
+	fmt.Println("org cell count:", _org_cell_count)
+	fmt.Println("cell count:", _cell_count)
+	fmt.Println("row count:", _row_count)
+	fmt.Println("drop cell count:", _drop_cell_count)
 	//}
 }
 
