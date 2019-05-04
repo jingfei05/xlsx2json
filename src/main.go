@@ -5,8 +5,11 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
+	"github.com/mitchellh/reflectwalk"
 	"github.com/tealeg/xlsx"
 	"os"
+	"reflect"
+	"time"
 )
 
 type Sheet struct {
@@ -21,6 +24,13 @@ type Sheet struct {
 	//  SheetViews  []SheetView
 	//  SheetFormat SheetFormat
 	//  AutoFilter  *AutoFilter
+	ErrorCells    []*Cell `json:"errorcells"`
+	OrgCellCount  int     `json:"orgcellcount"`
+	CellCount     int     `json:"cellcount"`
+	RowCount      int     `json:"rowcount"`
+	DropCellCount int     `json:"dropcellcount"`
+	Generator     string  `json:"generator"`
+	Date          string  `json:"date"`
 }
 
 type Row struct {
@@ -44,12 +54,15 @@ type Col struct {
 type Cell struct {
 	//  Row   *Row
 	Id     string `json:"id"`
+	X      int    `json:"X"`
+	Y      int    `json:"Y"`
 	Value  string `json:"value"`
 	NumFmt string `json:"numfmt"`
 	Hidden bool   `json:"hidden"`
 	HMerge int    `json:"hmerge"`
 	VMerge int    `json:"vmerge"`
 	Style  Style  `json:"style"`
+	Error  string `json:"error"`
 	//  DataValidation *xlsxCellDataValidation
 }
 
@@ -102,55 +115,6 @@ type Alignment struct {
 	WrapText     bool   `json:"wraptext"`
 }
 
-var default_cell_json = `
-                {
-                    "id": "A1",
-                    "value": "",
-                    "numfmt": "General",
-                    "hidden": false,
-                    "hmerge": 0,
-                    "vmerge": 0,
-                    "style": {
-                        "border": {
-                            "left": "",
-                            "leftcolor": "",
-                            "right": "",
-                            "rightcolor": "",
-                            "top": "",
-                            "topcolor": "",
-                            "bottom": "",
-                            "bottomcolor": ""
-                        },
-                        "fill": {
-                            "patterntype": "none",
-                            "bgcolor": "",
-                            "fgcolor": ""
-                        },
-                        "font": {
-                            "size": 11,
-                            "name": "Meiryo UI",
-                            "family": 3,
-                            "charset": 128,
-                            "color": "FF735223",
-                            "bold": false,
-                            "italic": false,
-                            "underline": false
-                        },
-                        "applyborder": true,
-                        "applyfill": false,
-                        "applyfont": true,
-                        "applyalignment": true,
-                        "alignment": {
-                            "horizontal": "left",
-                            "indent": 0,
-                            "shrinktofit": false,
-                            "textrotation": 0,
-                            "vertical": "center",
-                            "wraptext": true
-                        }
-                    }
-                }
-`
 
 func usage() {
 	fmt.Fprintf(os.Stderr, `usage of %s:
@@ -173,6 +137,7 @@ func main() {
 		minmam          = flag.Bool("m", false, "jsondata min size")
 		output_filename = flag.String("o", "stdout", "output filename option")
 		format          = flag.Bool("f", false, "json format option")
+		reflect         = flag.Bool("r", false, "reflectwalk option")
 	)
 
 	flag.Parse()
@@ -221,13 +186,14 @@ func main() {
 	_sheet.Selected = sheet.Selected
 
 	_sheet.Rows = make([]*Row, 0)
+
 	_sheet.Cols = make([]*Col, 0)
 	_y := 0
 
 	_org_cell_count := 0
 	_cell_count := 0
 	_row_count := 0
-        _drop_cell_count := 0
+	_drop_cell_count := 0
 	for _, row := range sheet.Rows {
 		_row := Row{}
 		_row.Hidden = row.Hidden
@@ -292,6 +258,8 @@ func main() {
 			_cell.Style.Alignment.WrapText = _xlsxStyle.Alignment.WrapText
 
 			_cell.Id = xlsx.GetCellIDStringFromCoords(_x, _y)
+			_cell.X = _x + 1
+			_cell.Y = _y + 1
 
 			// vacant cell judgement
 
@@ -314,15 +282,15 @@ func main() {
 			if *minmam {
 				if celljudg {
 					_row.Cells = append(_row.Cells, &_cell)
-			                _cell_count++
+					_cell_count++
 				} else {
-                                   _drop_cell_count++
-                                }
+					_drop_cell_count++
+				}
 
 			} else {
 
 				_row.Cells = append(_row.Cells, &_cell)
-			        _cell_count++
+				_cell_count++
 
 			}
 
@@ -343,8 +311,36 @@ func main() {
 
 		_sheet.Cols = append(_sheet.Cols, &_col)
 	}
+	_sheet.OrgCellCount = _org_cell_count
+	_sheet.CellCount = _cell_count
+	_sheet.RowCount = _row_count
+	_sheet.DropCellCount = _drop_cell_count
+	_sheet.Generator = "xlsx2json"
+	_sheet.Date = time.Now().String()
+
+	/******************************************************/
+	//var walker interface{}
+	if *reflect {
+		var walker Walker
+		if err := reflectwalk.Walk(_sheet, walker); err != nil {
+			panic(err)
+		}
+	}
+
+	/******************************************************/
 
 	jsonBytes, err := json.Marshal(_sheet)
+
+	if err != nil {
+		//log.Fatal(err)
+		fmt.Println(err)
+	}
+
+	if json.Valid(jsonBytes) {
+		fmt.Println("+++ marshal Valid ..")
+	} else {
+		fmt.Println("*** marshal inValid ..")
+	}
 
 	if *output_filename == "stdout" {
 		if *format {
@@ -366,14 +362,18 @@ func main() {
 			check(err)
 			defer file.Close()
 
-			fmt.Fprintf(file, out.String())
+			//fmt.Fprintf(file, out.String())
+			_, err = file.Write(out.Bytes())
+			check(err)
 
 		} else {
 			//fmt.Println(string(jsonBytes))
 			file, err := os.Create(*output_filename)
 			check(err)
 			defer file.Close()
-			fmt.Fprintf(file, string(jsonBytes))
+			//fmt.Fprintf(file, string(jsonBytes))
+			_, err = file.Write(jsonBytes)
+			check(err)
 		}
 	}
 
@@ -388,4 +388,39 @@ func check(e error) {
 	if e != nil {
 		panic(e)
 	}
+}
+
+/*
+
+type PrimitiveWalker interface {
+    Primitive(reflect.Value) error
+}
+
+*/
+
+type Walker struct {
+	base int
+}
+
+func (w Walker) Enter(loc reflectwalk.Location) error {
+	fmt.Print("------")
+	fmt.Println(loc)
+	return nil
+}
+func (w Walker) Struct(v reflect.Value) error {
+	fmt.Println("struct: ")
+	//fmt.Println( v )
+	return nil
+}
+func (w Walker) StructField(f reflect.StructField, v reflect.Value) error {
+	fmt.Print("field: ")
+	//fmt.Print( f )
+	fmt.Println(v)
+	return nil
+}
+func (w Walker) Primitive(v reflect.Value) error {
+	w.base++
+	//fmt.Println( "   :" + v.String())
+	fmt.Println(v)
+	return nil
 }
